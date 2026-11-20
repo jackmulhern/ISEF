@@ -71,9 +71,9 @@ npm run preview
 
 ## GitHub Pages
 
-Репозиторий: [mentyrop/ISEF](https://github.com/mentyrop/ISEF). Рабочий адрес: [isef.pro](https://isef.pro/).
+Репозиторий: [jackmulhern/ISEF](https://github.com/jackmulhern/ISEF). Рабочий адрес: [isef.pro](https://isef.pro/).
 
-1. Отправить изменения в ветку `main` репозитория `mentyrop/ISEF`.
+1. Отправить изменения в ветку `main` репозитория `jackmulhern/ISEF`.
 2. В репозитории открыть **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 3. Запустить workflow **Deploy ISEF to GitHub Pages** во вкладке **Actions** либо отправить новый коммит в `main`.
 4. После успешной публикации адрес появится в разделе Pages и в результатах workflow.
