@@ -41,7 +41,7 @@ test('Telegram scrolls content below an in-flow header and keeps section navigat
   await expect(pane).toHaveCSS('overflow-y', 'hidden')
   await page.getByRole('dialog').getByRole('link', { name: 'Руководство' }).click()
   await expect.poll(() => sectionGap('team')).toBeCloseTo(20, 0)
-  await page.getByRole('button', { name: 'Открыть биографию: Александр Сазыкин', exact: true }).click()
+  await page.getByRole('button', { name: 'Открыть биографию: Алексей Сазыкин', exact: true }).click()
   await expect(page.locator('#biography-dialog')).toBeVisible()
   await expect(pane).toHaveCSS('overflow-y', 'hidden')
   await page.getByRole('dialog').getByRole('button', { name: 'Закрыть', exact: true }).click()

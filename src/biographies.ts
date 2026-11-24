@@ -1,6 +1,6 @@
 import { asset, portraits, type Language } from './content'
 
-export const personIds = ['vladimir-milyaev', 'alexander-glazov', 'valery-afanasyev', 'alexander-sazykin', 'sergey-glazov'] as const
+export const personIds = ['vladimir-milyaev', 'alexander-glazov', 'valery-afanasyev', 'alexey-sazykin', 'sergey-glazov'] as const
 type PersonId = typeof personIds[number]
 
 // Generated from the supplied originals before development and production builds.
@@ -36,10 +36,9 @@ export const biographies: Record<Language, Record<PersonId, string[]>> = {
       'С 1996 по 2001 год работал в Мексике по приглашению национальной федерации хоккея и возглавлял команду Mexico-Select.',
       'Один из основателей клуба «Серебряные львы», работал главным тренером в системе СКА. Среди воспитанников Николай Кныжов, игравший в НХЛ. В 2021 году разработал концепцию хоккейной академии в Дубае.',
     ],
-    'alexander-sazykin': [
-      'Воспитанник СКА, тренировался с первой командой под руководством Бориса Михайлова. Тренирует с конца 2000-х.',
-      'Вместе с братом основал клуб ледового спорта SBS: хоккей и фигурное катание для детей с трёх лет и взрослых на аренах «Юбилейный» и «Север Парк Арена». В клубе старший тренер взрослых групп.',
-      'Играет в Санкт-Петербургской хоккейной лиге с первого сезона, член её Зала славы.',
+    'alexey-sazykin': [
+      'Воспитанник СКА, в составе команды своего года многократно выигрывал первенство Санкт-Петербурга. С отличием окончил тренерский факультет университета Лесгафта, тренирует со студенческих лет.',
+      'Вместе с братом основал клуб SBS и выстроил в нём систему из нескольких любительских команд разного уровня. Тренировал команду «Чисто Питер» в Медиалиге.',
     ],
     'sergey-glazov': [
       'Воспитанник хоккейной школы ЦСКА. Начинал нападающим, позже играл в защите. В 1971 году в составе юниорской сборной СССР стал чемпионом Европы.',
@@ -63,10 +62,9 @@ export const biographies: Record<Language, Record<PersonId, string[]>> = {
       'From 1996 to 2001, he worked in Mexico at the invitation of the national ice hockey federation and led the Mexico-Select team.',
       'A co-founder of the Silver Lions club, he worked as a head coach within the SKA organisation. His former players include Nikolai Knyzhov, who played in the NHL. In 2021, he developed a concept for a hockey academy in Dubai.',
     ],
-    'alexander-sazykin': [
-      'A product of the SKA system who trained with the first team under Boris Mikhailov. He has been coaching since the late 2000s.',
-      'Together with his brother, he founded SBS, an ice sports club offering hockey and figure skating for children aged three and above and for adults at the Yubileyny and Sever Park Arena rinks. He is the club’s senior coach for adult groups.',
-      'He has played in the Saint Petersburg Hockey League since its inaugural season and is a member of its Hall of Fame.',
+    'alexey-sazykin': [
+      'A product of the SKA system, he won the Saint Petersburg championship multiple times with his age-group team. He graduated with honours from the coach education faculty of Lesgaft University and has been coaching since his student years.',
+      'Together with his brother, he founded SBS and established a network of amateur teams at different levels within the club. He coached Chisto Piter in the Media League.',
     ],
     'sergey-glazov': [
       'A graduate of the CSKA hockey school. He began as a forward and later played in defence. In 1971, he won the European Championship with the USSR junior national team.',
@@ -90,10 +88,9 @@ export const biographies: Record<Language, Record<PersonId, string[]>> = {
       'De 1996 a 2001 trabajó en México por invitación de la federación nacional de hockey sobre hielo y dirigió el equipo Mexico-Select.',
       'Uno de los fundadores del club Silver Lions, trabajó como entrenador principal dentro de la organización del SKA. Entre sus alumnos se encuentra Nikolai Knyzhov, que jugó en la NHL. En 2021 desarrolló el concepto de una academia de hockey en Dubái.',
     ],
-    'alexander-sazykin': [
-      'Formado en el SKA, entrenó con el primer equipo bajo la dirección de Boris Mikhailov. Es entrenador desde finales de la década de 2000.',
-      'Junto con su hermano fundó el club de deportes de hielo SBS, que ofrece hockey y patinaje artístico para niños a partir de los tres años y para adultos en las pistas Yubileyny y Sever Park Arena. Es el entrenador responsable de los grupos de adultos del club.',
-      'Juega en la Liga de Hockey de San Petersburgo desde su primera temporada y forma parte de su Salón de la Fama.',
+    'alexey-sazykin': [
+      'Formado en el SKA, ganó varias veces el campeonato de San Petersburgo con el equipo de su categoría de edad. Se graduó con honores en la facultad de formación de entrenadores de la Universidad Lesgaft y ejerce como entrenador desde su etapa universitaria.',
+      'Junto con su hermano fundó el club SBS y creó una red de equipos aficionados de distintos niveles dentro del club. Entrenó al equipo Chisto Piter en la Media League.',
     ],
     'sergey-glazov': [
       'Formado en la escuela de hockey del CSKA. Comenzó como delantero y más tarde jugó en defensa. En 1971 se proclamó campeón de Europa con la selección júnior de la URSS.',

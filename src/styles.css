@@ -239,7 +239,7 @@ html.telegram-browser,html.telegram-browser body{height:100%;overflow:hidden;ove
 /* Individual framing keeps face scale and position consistent without altering originals. */
 .portrait-frame[data-person="vladimir-milyaev"]{--portrait-width:130%;--portrait-left:-10.5%;--portrait-top:0%}
 .portrait-frame[data-person="alexander-glazov"]{--portrait-width:160.469%;--portrait-left:-15.625%;--portrait-top:-25%}
-.portrait-frame[data-person="alexander-sazykin"]{--portrait-width:110%;--portrait-left:-1.25%;--portrait-top:-15%}
+.portrait-frame[data-person="alexey-sazykin"]{--portrait-width:197.647%;--portrait-left:-28.971%;--portrait-top:0%}
 .portrait-frame[data-person="sergey-glazov"]{--portrait-width:114.444%;--portrait-left:-7.222%;--portrait-top:-9.444%}
 .portrait-initials{display:grid;place-items:center;background:linear-gradient(140deg,#d8e3ec,#c7d6e1);font:400 24px/1 var(--brand);color:#688095;border:1px solid #b5c7d5}
 .person h3{margin:0;font-size:17px;font-weight:650;line-height:1.45}
